@@ -18,3 +18,11 @@
     border-radius: 4px;
   }
 }
+/* Fix primary button text visibility */
+.btn-primary {
+  color: #000 !important;
+}
+
+.btn-primary span {
+  color: #000 !important;
+}
