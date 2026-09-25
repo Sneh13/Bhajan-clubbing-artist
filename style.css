@@ -41,3 +41,8 @@
     background-position: 35% center;
   }
 }
+@media (max-width: 850px) {
+  .hero {
+    background-position: 15% center;
+  }
+}
