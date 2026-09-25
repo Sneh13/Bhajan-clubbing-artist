@@ -563,47 +563,57 @@
 </div>
         <form id="bookingForm" class="booking-form">
 
-          <label>
-            Name
-            <input name="name" required>
-          </label>
+  <label>
+    Name
+    <input name="name" type="text" placeholder="Your name" required>
+  </label>
 
-          <label>
-            Phone / WhatsApp
-            <input name="phone" required>
-          </label>
+  <label>
+    WhatsApp Number
+    <input name="phone" type="tel" placeholder="Your WhatsApp number" required>
+  </label>
 
-          <label>
-            Event type
-            <input
-              name="event"
-              placeholder="Wedding, jagran, private event..."
-              required>
-          </label>
+  <label>
+    Event Type
+    <select name="event" required>
+      <option value="">Select event type</option>
+      <option value="Wedding / Sangeet">Wedding / Sangeet</option>
+      <option value="Navratri">Navratri</option>
+      <option value="Ganpati">Ganpati</option>
+      <option value="Jagran / Satsang">Jagran / Satsang</option>
+      <option value="Corporate Event">Corporate Event</option>
+      <option value="Private Event">Private Event</option>
+      <option value="Other">Other</option>
+    </select>
+  </label>
 
-          <label>
-            Event date
-            <input name="date" type="date">
-          </label>
+  <label>
+    Event Date
+    <input name="date" type="date" required>
+  </label>
 
-          <label>
-            Location
-            <input name="location" required>
-          </label>
+  <label>
+    Event Location
+    <input name="location" type="text" placeholder="Mumbai, Navi Mumbai, etc." required>
+  </label>
 
-          <label>
-            Message
-            <textarea
-              name="message"
-              rows="4"
-              placeholder="Tell us about your event"></textarea>
-          </label>
+  <label>
+    Approx. Budget
+    <select name="budget" required>
+      <option value="">Select approximate budget</option>
+      <option value="₹15,000 – ₹30,000">₹15,000 – ₹30,000</option>
+      <option value="₹30,000 – ₹75,000">₹30,000 – ₹75,000</option>
+      <option value="₹75,000 – ₹1.5 Lakh">₹75,000 – ₹1.5 Lakh</option>
+      <option value="₹1.5 Lakh – ₹2.5 Lakh">₹1.5 Lakh – ₹2.5 Lakh</option>
+      <option value="Customized Requirement">Customized Requirement</option>
+    </select>
+  </label>
 
-          <button class="btn btn-primary" type="submit">
-            SEND ENQUIRY ON WHATSAPP ↗
-          </button>
+  <button class="btn btn-primary" type="submit">
+    SEND ENQUIRY ON WHATSAPP ↗
+  </button>
 
-        </form>
+</form>
 
       </div>
 
