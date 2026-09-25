@@ -35,14 +35,9 @@
   font-size: 14px !important;
   opacity: 1 !important;
   visibility: visible !important;
-}
-@media (min-width: 851px) {
-  .hero {
-    background-position: 35% center;
-  }
-}
 @media (max-width: 850px) {
   .hero {
-    background-position: 15% center;
+    background-size: auto 100%;
+    background-position: 70% center;
   }
 }
