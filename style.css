@@ -35,7 +35,9 @@
   font-size: 14px !important;
   opacity: 1 !important;
   visibility: visible !important;
+}
 
+/* Hero background positioning */
 @media (min-width: 851px) {
   .hero {
     background-position: 25% center;
