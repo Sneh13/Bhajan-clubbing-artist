@@ -41,3 +41,14 @@
    background-position: 85% center;
   }
 }
+@media (min-width: 851px) {
+  .hero {
+    background-position: 42% center;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero {
+    background-position: 40% center;
+  }
+}
