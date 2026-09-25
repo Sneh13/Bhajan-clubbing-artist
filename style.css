@@ -36,3 +36,8 @@
   opacity: 1 !important;
   visibility: visible !important;
 }
+@media (min-width: 851px) {
+  .hero {
+    background-position: 35% center;
+  }
+}
